@@ -6,7 +6,7 @@ function run() {
   const lMidName = document.querySelector('#lastMiddle').value
   const lName = document.querySelector('#lastName').value
 
-  // document.querySelector('#placeToYell').innerText = fName + ' ' + fMidName + ' ' + ' ' + lMidName + ' ' + lName
+  // document.querySelector('#placeToYell').innerText = fName + ' ' + fMidName + ' ' + ' ' + lMidName + ' ' + lName <-- concatenation
 
   //Add what you should be doing - conditionals go here
 
