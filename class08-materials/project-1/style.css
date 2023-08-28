@@ -1,0 +1,31 @@
+.container {
+  height: 100vh;
+  display: flex;
+  gap: 25px;
+  place-content: center flex-end;
+  flex-flow: row wrap;
+}
+
+[class^="box-"] {
+  width: 140px;
+  height: 140px;
+  background-color: skyblue;
+  border: 2px solid black;
+  font-size: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box-1 {
+  flex-shrink: 1;
+}
+
+.box-2 {
+  flex: 2 1 30em;
+  align-self: center;
+}
+
+.box-3 {
+  flex-shrink: 1;
+}
