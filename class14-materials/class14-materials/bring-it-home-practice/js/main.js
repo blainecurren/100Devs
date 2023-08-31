@@ -5,8 +5,9 @@ console.log(num);
 
 // Create a variable, add 10 to it, and alert the value
 let num2 = 10;
-console.log(num2 + 10);
 
+num3 = num2 + 10;
+alert(num3);
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
 function subtracts4(a, b, c, d) {
