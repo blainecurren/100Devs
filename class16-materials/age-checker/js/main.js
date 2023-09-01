@@ -33,5 +33,5 @@ function larry() {
 let age1 = document.querySelector("#danceDanceRevolution").value;
 
 if (age1 < 18 ) {
-
+se
 }
