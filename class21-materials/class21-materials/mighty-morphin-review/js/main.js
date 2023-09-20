@@ -33,12 +33,27 @@ nums3(1, 2, 3);
 // *Conditionals*
 //Create a function that returns heads or tails randomly and as fairly as possible. Call the function.
 function headsOrTails() {
-  let result = Math.random();
+  let result = Math.random(); // Math.random() returns 0-1
   if (result < 0.5) {
+    // to get a 50/50 result, check for one half or the other half
     return "heads";
   } else {
     return "tails";
   }
 }
+
+// single line solution
+const headsOrTails = () => (Math.random() < 0.5 ? "heads" : "tails"); // ? : = if & else
+
+// arrow function has an implicit return
+
 //*Loops*
 //Create a function that takes in a number. Console log the result of heads or tails using the previous function x times where x is the number passed into the function. Call the function.
+function flipadelphia(n) {
+  for (let i = 1; i <= n; i++) {
+    let result = headsOrTails();
+    console.log(result);
+  }
+}
+
+flipadelphia();
