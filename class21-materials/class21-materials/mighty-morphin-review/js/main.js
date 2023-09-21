@@ -48,7 +48,8 @@ const headsOrTails = () => (Math.random() < 0.5 ? "heads" : "tails"); // ? : = i
 // arrow function has an implicit return
 
 //*Loops*
-//Create a function that takes in a number. Console log the result of heads or tails using the previous function x times where x is the number passed into the function. Call the function.
+//Create a function that takes in a number.
+// Console log the result of heads or tails using the previous function x times where x is the number passed into the function. Call the function.
 function flipadelphia(n) {
   for (let i = 1; i <= n; i++) {
     let result = headsOrTails();
