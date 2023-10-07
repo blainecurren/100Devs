@@ -1,7 +1,9 @@
 // *Variables*
 // Declare a variable and assign it to your fav drink as a string. Make sure there is no whitespace on either side of the string, and print the value to the console
 let favDrink = " Milos ";
-favDrink = favDrink.trim();
+favDrink = favDrink.trim(); 
+// trim method removes from the current string all leading and trailing white-space characters
+
 
 console.log(favDrink);
 
