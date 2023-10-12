@@ -25,3 +25,7 @@ let pizza = new PizzaMachine(
   "deep dish",
   "white"
 );
+
+// PizzaMachine.prototype.cheese = false 
+
+
