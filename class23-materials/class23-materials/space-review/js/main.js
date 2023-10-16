@@ -20,5 +20,3 @@ let unoReverse = (str) => console.log(str.split("").reverse().join(""));
 //Alert if the string is a palindrome or not
 const palindromeCheck = (str) =>
   alert(str === str.split("").reverse()).join("");
-
-
