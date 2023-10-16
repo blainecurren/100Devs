@@ -1,5 +1,3 @@
-
-
 // //Arrays
 
 // //Create and array of tv shows. Loop through and print each show to the console

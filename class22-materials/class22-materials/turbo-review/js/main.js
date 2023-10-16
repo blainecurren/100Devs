@@ -29,6 +29,7 @@ function rockPaperScissor() {
     return "scissor";
   }
 }
+
 // *Conditionals*
 //Create a function that takes in a choice (rock, paper, or scissors) and determines if they won a game of rock paper scissors against a bot using the above function
 function checkWin(playerChoice) {
