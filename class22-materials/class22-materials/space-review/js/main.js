@@ -14,5 +14,7 @@ let newArr = (nums) => nums.map((num) => num ** 2);
 let unoReverse = (str) => console.log(str.split("").reverse().join(""));
 
 //Create a function that takes in a string
-const palindromeCheck = (str) => alert(str === str.split("").reverse().join(""))
+const palindromeCheck = (str) =>
+  alert(str === str.split("").reverse().join(""));
 //Alert if the string is a palindrome or not
+palindromeCheck("racecar");
