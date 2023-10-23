@@ -1,5 +1,5 @@
 // *Variables*
-// Declare a variable and assign it to a sentance that is a positive affirmation. Print the affirmation to the console multiple times using a method
+// Declare a variable and assign it to a sentence that is a positive affirmation. Print the affirmation to the console multiple times using a method
 
 //Declare a variable, assign it an array of letters, combine the letters into one word, and alert it 
 
