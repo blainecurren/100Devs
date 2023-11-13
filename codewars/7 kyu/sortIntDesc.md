@@ -7,3 +7,5 @@
 function descendingOrder(n){
   return parseInt(String(n).split('').sort().reverse().join(''))
 }
+
+- parseInt() function parses a string argument and returns an integer of the specified radix(the base in mathematical numeral systems)
