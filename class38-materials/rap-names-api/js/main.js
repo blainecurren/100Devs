@@ -1,18 +1,14 @@
-function submitForm() {
-  var input = document.getElementById().value;
+document.querySelector("button").addEventListener("click", apiRequest);
 
-  fetch("/process", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ rappers: age, birthName, birthLocation }),
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      console.log(data);
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
+async function apiRequest() {
+  const rappersName = document.querySelector("input").value;
+  try {
+    const response = await fetch(`http://localhost:8000/${rappersName}`);
+    const data = await response.json();
+
+    console.log(data);
+    document.querySelector("h2").innerText = data.birthName;
+  } catch (error) {
+    console.log(error);
+  }
 }

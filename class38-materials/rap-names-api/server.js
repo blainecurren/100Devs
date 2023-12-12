@@ -23,16 +23,16 @@ const rappers = {
   },
 };
 
-app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/index.html");
+app.get("/", (request, response) => {
+  response.sendFile(__dirname + "/index.html");
 });
 
-app.get("/api/:rapperName", (req, res) => {
-  const rappersName = req.params.rapperName.toLowerCase();
+app.get("/api/:rappersName", (request, response) => {
+  const rappersName = request.params.rappersName.toLowerCase();
   if (rappers[rappersName]) {
-    res.json(rappers[rappersName]);
+    response.json(rappers[rappersName]);
   } else {
-    res.json(rappers["dylan"]);
+    response.json(rappers["dylan"]);
   }
 });
 
